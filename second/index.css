@@ -6,22 +6,57 @@ body{
     width: auto;
     border: 7px solid;
     border-color: black;
-    height: 29vh;
+    height: 25vh;
+    padding: 20px;
+
 }
 
-#purple{}
-#green{}
-#circle{}
+#purple{
+    background: blueviolet;
+    width: 50px;
+    height: 150px;
+    position: relative;
+    left: 0px;
+    top: 80px;
+}
+#green{
+    background: green;
+    width: 500px;
+    height: 100%;
+    position: relative;
+    left: 200px;
+    top: -150px;
+}
+
+.circle:before {
+    content: ' \25CF';
+    color: skyblue;
+    font-size: 500px;
+    display: inline;
+    position: relative;
+    left: 800px;
+    top: -600px;
+}
 
 .middle{
     width: auto;
     border: 7px dotted;
     border-color: black;
-    height: 29vh;
+    height: 25vh;
     margin-top: 20px;
+    padding-top: 30px;
 }
 
-#yellow{}
+#yellow{
+    width: 95%;
+    border: 10px;
+    margin: auto;
+    position: center;
+    text-align: center;
+    background: rgb(255, 255, 137);
+    height: 80%;
+    box-shadow: 5px 5px 3px 0px gray;
+}
 
 .footer{    
     width: 40%;
@@ -29,7 +64,7 @@ body{
     position: center;
     border: 1px solid gray;   
     box-shadow: 5px 5px 3px 0px gray;
-    height: 29vh;
+    height: 25vh;
     margin-top: 20px;
 }
 
