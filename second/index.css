@@ -1,0 +1,42 @@
+body{
+    padding: 7px;
+}
+
+.header{    
+    width: auto;
+    border: 7px solid;
+    border-color: black;
+    height: 29vh;
+}
+
+#purple{}
+#green{}
+#circle{}
+
+.middle{
+    width: auto;
+    border: 7px dotted;
+    border-color: black;
+    height: 29vh;
+    margin-top: 20px;
+}
+
+#yellow{}
+
+.footer{    
+    width: 40%;
+    margin: auto;
+    position: center;
+    border: 1px solid gray;   
+    box-shadow: 5px 5px 3px 0px gray;
+    height: 29vh;
+    margin-top: 20px;
+}
+
+.footer h1 {
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    font-size: 30pt;
+    letter-spacing: 10px;
+}
